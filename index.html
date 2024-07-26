@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Ikan</title>
+
+    <link rel="stylesheet" href="assets/style/style.css" />
+
+    <!-- link font yang digunakan -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link untuk icon yang digunakan -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar-container">
+      <div class="logo">
+        <img src="assets/image/logo.png" alt="logo haris" />
+      </div>
+      <nav class="navbar" id="navlink">
+        <ul>
+          <i class="bx bx-x" onclick="hidemenu()"></i>
+          <li><a href="#konten-utama">Beranda</a></li>
+          <li><a href="#artikel-cupang">Artikel</a></li>
+          <li><a href="#artikel-rekomendasi">Rekomendasi</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+      <i class="bx bx-menu" onclick="showmenu()"></i>
+    </header>
+    <main>
+      <div class="konten-utama" id="konten-utama">
+        <div class="logo-landing">
+          <img src="assets/image/logolanding.png" alt="" />
+        </div>
+        <div class="landing">
+          <h1>Haris <span>Fish</span></h1>
+          <p>
+            Membahas semua tentang ikan dan segala pernak-perniknya dengan
+            pembahasan yang menarik.
+          </p>
+          <a href="" class="btn-landing">More Info</a>
+        </div>
+      </div>
+      <article id="artikel-cupang">
+        <div class="cupang">
+          <div class="image-cupang">
+            <img src="assets/image/betta.jpg" alt="" />
+          </div>
+          <div class="cupang-konten">
+            <h1>Ikan <span>Cupang</span></h1>
+            <p>
+              Ikan cupang adalah ikan yang sangat digemari oleh banyak orang,
+              pada masa covid19 harga ikan cupang melambung jauh diakibatkan
+              karena banyaknya permintaan dari pembeli. ikan ini memiliki ekor
+              yang menarik dengan kombinasi warna yang bemacam-macam. ikan ini
+              tergolo mudah untuk dipelihara, dikarenakan ikan ini teritorial
+              jadi ikan ini harus dipisahkan wadahnya dari ikan lain.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article id="artikel-guppy">
+        <div class="guppy">
+          <div class="konten-guppy">
+            <h1>Ikan <span>Guppy</span></h1>
+            <p>
+              Ikan guppy adalah ikan air tawar yang memiliki warna mencolok pada
+              ekornya, ikan ini tergolong ikan yang mudah dipelihara dan sangat
+              mudah berkembang biak. Ikan ini memiliki ukuran yang kecil dengan
+              ciri ekor yang berwarna warni. Sekali beranak ikan ini mampu
+              menghasilkan lebih dari 10 anak tergantung kondisi dari
+              induknya.Ikan ini sangat bersahabat sehingga ikan ini dapat
+              digabung dengan ikan lain asal tidak digabung dengan ikan yang
+              besar.
+            </p>
+          </div>
+          <div class="image-guppy">
+            <img src="assets/image/guppy.jpg" alt="" />
+          </div>
+        </div>
+      </article>
+      <article id="artikel-tiger">
+        <div class="tiger">
+          <div class="image-tiger">
+            <img src="assets/image/tiger.jpg" alt="" />
+          </div>
+          <div class="konten-tiger">
+            <h1>Ikan <span>Tiger</span> Barb</h1>
+            <p>
+              Ikan Tiger barb adalah ikan yang memiliki corak seperti loreng
+              pada harimau, itulah mengapa ikan ini diberi nama ikan tiger barb.
+              ikan ini termasuk jenis ikan barb yang tubuhnya kecil. Karakter
+              ikan ini sedikit agresif terhadap ikan yang lebih kecil, tetapi
+              ikan ini dapat hidup berdampingan dengan ikan yang sama besar
+              ataupun lebih besar.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article id="artikel-rekomendasi" class="rekomendasi-ikan">
+        <div class="rekomendasi">
+          <h1>Rekomendasi Ikan Predaor</h1>
+          <p>
+            Terdapat berbagai macam jenis ikan, baik dari segi fisik, ukuran
+            bahkan tingkah laku. Ikan yang memiliki tingkah laku ganas dan gemar
+            memangsa ikan lain bisa disebut ikan predator. Ikan predator banyak
+            digemari karena ikan ini memiliki sifat agresiv.
+          </p>
+        </div>
+
+        <div class="konten-section">
+          <section>
+            <div class="predator piranha">
+              <img src="assets/image/piranha.jpg" alt="" />
+              <h3>Ikan Piranha</h3>
+              <p>
+                ikan ini hidup disungai amazon, terkenal ganas dan lincah saat
+                memangsa makananya. ikan ini bisa dipelihara di aquarium asal
+                tidak dilepas liarkan
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="predator arapaima">
+              <img src="assets/image/arapaima.jpg" alt="" />
+              <h3>Ikan Arapaima</h3>
+              <p>
+                Ikan ini hidup disungai amazon, ikan ini dapat mencapai ukuran
+                yang sangat besar. ikan ini memiliki mulut yang besar dan lebar
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="predator arwana">
+              <img src="assets/image/arwana.jpg" alt="" />
+              <h3>Ikan Arwana</h3>
+              <p>
+                Ikan arwana adalah ikan yang memiliki banyak jenis, salah
+                satunya adalah ikan super red yang merupakan ikan asli dari
+                Indonesia yang memiliki harga yang cukup mahal.
+              </p>
+            </div>
+          </section>
+        </div>
+      </article>
+      <aside>
+        <div class="perkenalan" id="kontak">
+          <h2>Halo Nama saya Haris Priambada</h2>
+          <p>Berikut merupakan profil saya</p>
+        </div>
+        <article class="profile">
+          <div class="card"></div>
+          <header>
+            <figure>
+              <img src="assets/image/foto.jpg" alt="fotoku" />
+              <figcaption>foto profile</figcaption>
+            </figure>
+            <h2>Haris Priambada</h2>
+          </header>
+          <h3>My Profile</h3>
+          <table class="table">
+            <tr>
+              <td>Nama</td>
+              <td>Haris Primabada</td>
+            </tr>
+            <tr>
+              <td>email</td>
+              <td>primbodoharis@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Tempat,Tgl Lahir</td>
+              <td>Sleman,27-Mei-2000</td>
+            </tr>
+            <tr>
+              <td>Alamat</td>
+              <td>Magelang</td>
+            </tr>
+            <tr>
+              <td>Hobi</td>
+              <td>Memelihara Ikan Hias</td>
+            </tr>
+          </table>
+        </article>
+      </aside>
+    </main>
+    <footer class="footer">
+      <p>Haris Priambada &#169; 2023, Dicoding Academy</p>
+    </footer>
+
+    <!-- script untuk javascript togle menu -->
+    <script>
+      var navlink = document.getElementById("navlink");
+      function showmenu() {
+        navlink.style.right = "0";
+      }
+      function hidemenu() {
+        navlink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
